@@ -1,0 +1,968 @@
+Initialize engine version: 5.3.2f1 (e87ab445ead0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 760 (ID=0x1187)
+    Vendor:   NVIDIA
+    VRAM:     1990 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Unity3D\Fps Lan\ejecutables\a_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Unity3D\Fps Lan\ejecutables\a_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Unity3D\Fps Lan\ejecutables\a_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Unity3D\Fps Lan\ejecutables\a_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Unity3D\Fps Lan\ejecutables\a_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Unity3D\Fps Lan\ejecutables\a_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Unity3D\Fps Lan\ejecutables\a_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Unity3D\Fps Lan\ejecutables\a_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Unity3D\Fps Lan\ejecutables\a_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Unity3D\Fps Lan\ejecutables\a_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Unity3D\Fps Lan\ejecutables\a_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Unity3D\Fps Lan\ejecutables\a_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.206 seconds
+Platform assembly: C:\Unity3D\Fps Lan\ejecutables\a_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Unity3D\Fps Lan\ejecutables\a_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.564162 ms
+Please assign a target to the camera that has a super mario controller.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+UnityException: Tag: Spawn is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at StatusPlayer.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Spawn is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at StatusPlayer.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Fire.disparar () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Fire.disparar () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+View ID SceneID: 2 Level Prefix: 0 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1697)
+
+Received state update for view id' SceneID: 2 Level Prefix: 0' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2491)
+
+The server has disconnected from the client. Most likely the server has shut down.
+ 
+(Filename:  Line: 761)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.358545 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 313.
+Total: 0.195352 ms (FindLiveObjects: 0.021895 ms CreateObjectMapping: 0.014711 ms MarkObjects: 0.154982 ms  DeleteObjects: 0.003079 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.267198 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 317.
+Total: 0.259329 ms (FindLiveObjects: 0.032159 ms CreateObjectMapping: 0.013342 ms MarkObjects: 0.210063 ms  DeleteObjects: 0.003421 ms)
+
+==> Local IP/port is 192.168.0.25/25000. Use this on clients to connect directly.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Please assign a target to the camera that has a super mario controller.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+UnityException: Tag: Spawn is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at StatusPlayer.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Spawn is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at StatusPlayer.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Server destroying player
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+UnityException: Tag: Spawn is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at StatusPlayer.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Fire.disparar () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Server destroying player
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+UnloadTime: 0.348281 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2e88 -> priority: 1 
