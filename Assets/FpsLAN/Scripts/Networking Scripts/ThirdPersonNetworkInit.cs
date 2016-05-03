@@ -6,12 +6,15 @@ public class ThirdPersonNetworkInit : MonoBehaviour
 {
 	public MonoBehaviour[] ComponentesDes;
 	public Camera camara;
+	void Start(){
+	}
 	void OnNetworkInstantiate (NetworkMessageInfo msg)
 	{
 		// This is our own player
 		if (GetComponent<NetworkView>().isMine) {
 			
 			GetComponent<NetworkInterpolatedTransform> ().enabled = false;
+			print ("soyprincipal");
 			// This is just some remote controlled player
 		} else {
 			name += "Remote";
