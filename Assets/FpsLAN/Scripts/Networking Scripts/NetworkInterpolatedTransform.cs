@@ -1,9 +1,13 @@
 using UnityEngine;
+using UnityEditor;
 using System.Collections;
 [RequireComponent(typeof(NetworkView))]
+[RequireComponent(typeof(ThirdPersonNetworkInit))]
 public class NetworkInterpolatedTransform : MonoBehaviour
 {
 
+	[Header("!!Siempre dejar desabilitado")]
+	[Header("!!Siempre agregar a NetworkView")]
 	public double interpolationBackTime = 0.1;
 	public bool InterpolarPosicion = true;
 	public bool InterpolarRotacion = true;
@@ -23,8 +27,8 @@ public class NetworkInterpolatedTransform : MonoBehaviour
 	{
 		// Always send transform (depending on reliability of the network view)
 		if (stream.isWriting) {
-			Vector3 pos = transform.localPosition;
-			Quaternion rot = transform.localRotation;
+			Vector3 pos = transform.position;
+			Quaternion rot = transform.rotation;
 			stream.Serialize (ref pos);
 			stream.Serialize (ref rot);
 			// When receiving, buffer the information
@@ -92,9 +96,9 @@ public class NetworkInterpolatedTransform : MonoBehaviour
 					
 					// if t=0 => lhs is used directly
 					if(InterpolarPosicion)
-						transform.localPosition = Vector3.Lerp (lhs.pos, rhs.pos, t);
+						transform.position = Vector3.Lerp (lhs.pos, rhs.pos, t);
 					if(InterpolarRotacion)
-						transform.localRotation = Quaternion.Slerp (lhs.rot, rhs.rot, t);
+						transform.rotation = Quaternion.Slerp (lhs.rot, rhs.rot, t);
 					return;
 				}
 			}
@@ -103,9 +107,10 @@ public class NetworkInterpolatedTransform : MonoBehaviour
 		} else {
 			State latest = m_BufferedState[0];
 			if(InterpolarPosicion)
-				transform.localPosition = latest.pos;
+				transform.position = latest.pos;
 			if(InterpolarRotacion)
-				transform.localRotation = latest.rot;
+				transform.rotation = latest.rot;
 		}
 	}
+
 }
