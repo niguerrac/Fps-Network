@@ -30,16 +30,22 @@ public class StatusPlayer : MonoBehaviour {
 	{
 		kill++;
 	}
+	string barravida = "##########";
 	public bool Vida (float damage)
 	{
 		vida = vida - damage;
-
+		barravida = "";
+		for (int i = 0; i < vida; i = i + 10)
+			barravida = barravida +"#";
 		if (vida <= 0)
 			return true;
 		return false;
 	}
 	void OnGUI()
-	{if (GetComponent<NetworkView>().isMine) 
-		GUI.Label(new Rect(1, 1, 300, 20), "Vida: "+ vida+" Kill: "+ kill +" dead: "+dead);
+	{if (GetComponent<NetworkView> ().isMine) {
+			
+
+			GUI.Label (new Rect (1, 1, 300, 20), "Vida: " + vida +" ["+ barravida + "] Kill: " + kill + " dead: " + dead);
+		}
 	}
 }

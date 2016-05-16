@@ -29,7 +29,7 @@
 			// When network is running (server or client) then display the levels
 			// configured in the supportedNetworkLevels array and allow them to be loaded
 			// at the push of a button
-			if (Network.peerType != NetworkPeerType.Disconnected || true) {
+			if (Network.peerType != NetworkPeerType.Disconnected ) {
 				GUILayout.BeginArea (new Rect (Screen.width - 100, 80, 100, 30));
 				GUILayout.BeginHorizontal ();
 				

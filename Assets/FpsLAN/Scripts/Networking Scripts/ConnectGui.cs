@@ -12,8 +12,9 @@ public class ConnectGui : MonoBehaviour
 	public bool useNat = false;
 	public bool automaticHostServer=false;
 	public bool automaticSearchServer = false;
-//	private string connectionInfo = "";
-//	public Text testo;
+	public static bool isServer=false;
+	//	private string connectionInfo = "";
+	//	public Text testo;
 	void Awake ()
 	{
 		if (PlayerPrefs.HasKey ("savedIP"))
@@ -22,7 +23,7 @@ public class ConnectGui : MonoBehaviour
 			this.enabled = false;
 		if(automaticHostServer)
 			incia_servidor();
-//		Network.Connect ("192.168.0.43", remotePort);
+		//		Network.Connect ("192.168.0.43", remotePort);
 		if(automaticSearchServer && PlayerPrefs.HasKey("ip"))
 			Network.Connect (PlayerPrefs.GetString("ip"), remotePort);
 		if (automaticSearchServer && Network.peerType == NetworkPeerType.Disconnected) {
@@ -34,15 +35,21 @@ public class ConnectGui : MonoBehaviour
 		for (int c = 0; c < 255 && Network.peerType == NetworkPeerType.Disconnected; c++)
 			for (int d = 0; d < 255 && Network.peerType == NetworkPeerType.Disconnected; d++) {
 				print ("192.168."+c.ToString()+"." + d.ToString ());
-//				testo.text = "192.168."+c.ToString()+"."+ d.ToString ();
+				//				testo.text = "192.168."+c.ToString()+"."+ d.ToString ();
 				Network.Connect ("192.168."+c.ToString()+"."  + d.ToString (), remotePort);
 				PlayerPrefs.SetString ("ip", "192.168."+c.ToString()+"." + d.ToString ());
 				yield return new WaitForSeconds (.3f);
 
 			}
-	
-	}
 
+	}
+	IEnumerator onnetworkstart()
+	{
+		yield return new WaitForSeconds(1);
+		foreach (GameObject go in FindObjectsOfType (typeof(GameObject))) {
+			go.SendMessage ("OnNetworkStart", SendMessageOptions.DontRequireReceiver);
+		}
+	}
 	void OnGUI ()
 	{
 		GUILayout.Space (10);
@@ -55,9 +62,12 @@ public class ConnectGui : MonoBehaviour
 			GUILayout.EndHorizontal ();
 			GUILayout.BeginHorizontal ();
 			GUILayout.Space (10);
-			
+
 			GUILayout.BeginVertical ();
 			if (GUILayout.Button ("Connect")) {
+				isServer = false;
+				StartCoroutine (onnetworkstart ());
+
 				if (useNat) {
 					if (remoteGUID != 0)
 						Debug.LogWarning ("Invalid GUID given, must be a valid one as reported by Network.player.guid or returned in a HostData struture from the master server");
@@ -69,12 +79,15 @@ public class ConnectGui : MonoBehaviour
 				}
 			}
 			if (GUILayout.Button ("Start Server")) {
-				
-				Network.InitializeServer (32, listenPort, useNat);
-				// Notify our objects that the level and the network is ready
-				foreach (GameObject go in FindObjectsOfType (typeof(GameObject)))
-					go.SendMessage ("OnNetworkLoadedLevel", SendMessageOptions.DontRequireReceiver);
+				isServer = true;
+				StartCoroutine (onnetworkstart ());
+			
+			Network.InitializeServer (32, listenPort, useNat);
+			// Notify our objects that the level and the network is ready
+			foreach (GameObject go in FindObjectsOfType (typeof(GameObject))) {
+				go.SendMessage ("OnNetworkLoadedLevel", SendMessageOptions.DontRequireReceiver);
 			}
+		}
 			GUILayout.EndVertical ();
 			if (useNat) {
 				remoteGUID = int.Parse (GUILayout.TextField (remoteGUID.ToString (), GUILayout.MinWidth (145)));
@@ -106,8 +119,10 @@ public class ConnectGui : MonoBehaviour
 	void OnConnectedToServer ()
 	{
 		// Notify our objects that the level and the network is ready
-		foreach (GameObject go in FindObjectsOfType (typeof(GameObject)))
+		foreach (GameObject go in FindObjectsOfType (typeof(GameObject))) {
 			go.SendMessage ("OnNetworkLoadedLevel", SendMessageOptions.DontRequireReceiver);
+			go.SendMessage ("OnNetworkStart", SendMessageOptions.DontRequireReceiver);
+		}
 	}
 
 	void OnDisconnectedFromServer ()
